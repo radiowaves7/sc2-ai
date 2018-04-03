@@ -1,2 +1,2 @@
-# sc2-ai
-Looking at Artificial Intelligence in StarCraft II
+# StarCraft II Artificial Intelligence
+This project investigates the use of machine learning and artificial intelligence in the StarCraft II game environment. I looked at Q Learning and its implementation with an agent using Python 3.0 and the [pysc2](https://deepmind.com/documents/110/sc2le.pdf) library. I found that although the reward system in Q Learning is good for an agent to solve simple tasks; the complexity of the StarCraft II environment meant that Q Learning was not sufficient for the agent to find a way to win. The agents using Q Learning were unable to win a single game against Blizzard's Easy difficulty AI.
